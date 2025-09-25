@@ -57,7 +57,7 @@
 </table>
 
 # Table of contents
-
+- [Installation](# Installation)
 # Installation
 - **Python version<=3.10 is recommended**.
 - The repo uses **fairseq** to finetune the Bhashaverse model.
