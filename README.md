@@ -3,9 +3,21 @@
 [📝Paper](https://arxiv.org/pdf/2412.04351) | [💻Github Repo](https://github.com/vmujadia/onemtbhashaverse/tree/main) 
 
 # About the model
+
 <table border="1" cellpadding="6" cellspacing="0">
 <tbody>
-    <tr><td>Assamese (Bengali Script)</td><td>as</td><td>asm_Beng</td></tr>
+    <thead>
+    <tr>
+      <th>Language (Script)</th>
+      <th>Code</th>
+      <th>Identifier</th>
+    </tr>
+  </thead>
+    <tr>
+        <td>Assamese (Bengali Script)</td>
+        <td>as</td>
+        <td>asm_Beng</td>
+    </tr>
     <tr><td>Awadhi (Devanagari Script)</td><td>aw</td><td>awa_Deva</td></tr>
     <tr><td>Bengali</td><td>bn</td><td>ben_Beng</td></tr>
     <tr><td>Bhojpuri</td><td>bh</td><td>bho_Deva</td></tr>
