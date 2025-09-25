@@ -57,7 +57,16 @@
 </table>
 
 # Table of contents
-- [Installation](# Installation)
+- [Installation](#installation)
+    - [Setup via install.sh](#use-the-installsh-bash-file-to-setup-everything-automatically)
+    - [Manual Setup](#manual-setup-if-above-setup-is-not-working-for-you)
+- [Data](#data)
+- [Data Preprocessing](#data-pre-processing)
+    - [Step-1](#step-1--add-language-mappings)
+    - [Step-2](#step-2--encode-the-mapped-sentence-using-tokenizer)
+    - [Step-3](#step-3--preprocess-the-data-using-fairseq-preprocess)
+- [Training/Fine-Tuning](#training)
+- [Inference](#inference)
 # Installation
 - **Python version<=3.10 is recommended**.
 - The repo uses **fairseq** to finetune the Bhashaverse model.
