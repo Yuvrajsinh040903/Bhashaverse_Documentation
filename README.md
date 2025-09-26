@@ -67,6 +67,7 @@
     - [Step-3](#step-3--preprocess-the-data-using-fairseq-preprocess)
 - [Training/Fine-Tuning](#training)
 - [Inference](#inference)
+- [Citation](#citation)
 # Installation
 - **Python version<=3.10 is recommended**.
 - The repo uses **fairseq** to finetune the Bhashaverse model.
@@ -176,3 +177,30 @@ TRANSLATION_MODEL_PATH="checkpoints/checkpoint_last.pt"
 
 * After this, use the `call_onemt.py` file to infer your fine-tuned model.
 * Use the `translate_onemt()` function in this file to infer.
+
+# Citation
+```bibtext
+@inproceedings{mujadia-sharma-2022-ltrc,
+    title = "The {LTRC} {H}indi-{T}elugu Parallel Corpus",
+    author = "Mujadia, Vandan  and Sharma, Dipti",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.365",
+    pages = "3417--3424",
+}
+
+@inproceedings{mujadia-sharma-2021-english,
+title = "{E}nglish-{M}arathi Neural Machine Translation for {L}o{R}es{MT} 2021",
+author = "Mujadia, Vandan  and Sharma, Dipti Misra",
+booktitle = "Proceedings of the 4th Workshop on Technologies for MT of Low Resource Languages (LoResMT2021)",
+month = aug,
+year = "2021",
+address = "Virtual",
+publisher = "Association for Machine Translation in the Americas",
+url = "https://aclanthology.org/2021.mtsummit-loresmt.16",
+pages = "151--157",
+}
+```
