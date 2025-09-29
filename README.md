@@ -127,9 +127,11 @@ python3 downloadmodels.py
     * You will be preparing total 6 files for training: `train.src`, `train.tgt`, `valid.src`, `valid.tgt`, `test.src`, `test.tgt`.
     * Append language mappings before each sentence. It is the same format as you would have seen in flores.
     * For this, You need to append `###src_lang-tgt_lang### ` like language mapping before every source sentence, meaning in all .src files only. (***Remember to keep a space between language mapping and sentence***)
-    > Example : 
+    ```
+    Example : 
         Original source sentence : भाषावर्स में आपका स्वागत है।
         Language mapping sentence : ###hin_Deva-guj_Gujr### भाषावर्स में आपका स्वागत है।
+    ```
     #### Step-2 : Encode the mapped sentence using tokenizer
     * Use the `onemtv3b_spm.model` that you downloaded in setup, and encode all the sentences.
     * Below is a sample snippet refering to which you can perform both Step-1,2 together:
