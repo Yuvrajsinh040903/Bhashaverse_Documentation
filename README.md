@@ -9,6 +9,7 @@ Assamese, Hindi, Tamil, and Urdu. The model utilizes 10 billion parallel corpora
 integrates translation, grammar correction, error identification, quality estimation, and postediting, ensuring robust cross-lingual communication. Evaluations cover discourse-level and
 domain-specific translation, using reference-based and reference-free metrics. This work enhances
 translation quality, supports linguistic diversity, and advances low-resource language processing.
+* Below is the list of supported languages:
 <table border="1" cellpadding="6" cellspacing="0">
 <tbody>
     <thead>
