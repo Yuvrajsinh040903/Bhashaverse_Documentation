@@ -3,7 +3,12 @@
 [📝Paper](https://arxiv.org/pdf/2412.04351) | [💻Github Repo](https://github.com/vmujadia/onemtbhashaverse/tree/main) 
 
 # About the model
-
+We present a multilingual, multi-task translation model for 36 Indian languages, including
+Assamese, Hindi, Tamil, and Urdu. The model utilizes 10 billion parallel corpora for 36 x
+36 language directions and millions of data pairs for tasks like translation evaluation, postediting, grammar correction, and error identification. Corpus creation involves leveraging existing resources, synthetic data, and domain-specific datasets. The model’s multi-task approach
+integrates translation, grammar correction, error identification, quality estimation, and postediting, ensuring robust cross-lingual communication. Evaluations cover discourse-level and
+domain-specific translation, using reference-based and reference-free metrics. This work enhances
+translation quality, supports linguistic diversity, and advances low-resource language processing.
 <table border="1" cellpadding="6" cellspacing="0">
 <tbody>
     <thead>
