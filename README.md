@@ -122,7 +122,7 @@ python3 downloadmodels.py
 # Data Pre-processing
 
 - Before sendiong the data to the translation model, it is required to tokenize the data.
-- For tokenizing the it, the data needs to be in a specific way as mentioned below:
+- For tokenizing it, the data needs to be in a specific way as mentioned below:
     #### Step-1 : Add Language Mappings
     * You will be preparing total 6 files for training: `train.src`, `train.tgt`, `valid.src`, `valid.tgt`, `test.src`, `test.tgt`.
     * Append language mappings before each sentence. It is the same format as you would have seen in flores.
