@@ -115,10 +115,7 @@ python3 downloadmodels.py
 - HuggingFace Dataset Link : https://huggingface.co/datasets/ltrciiith/bhashik-parallel-corpora-generic
 - This huggingface dataset repo is gated, hence you will need to share your details by clicking *"Agree and Access Repository"*.
 - Generate you huggingface accesstoken for accessing gated repos by clicking [here](https://huggingface.co/settings/tokens).
-- Use below code to download data from HuggingFace.
-  ```python
-  import huggingface_hub
-  ```
+
 # Data Pre-processing
 
 - Before sendiong the data to the translation model, it is required to tokenize the data.
