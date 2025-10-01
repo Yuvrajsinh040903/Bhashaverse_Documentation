@@ -188,27 +188,13 @@ TRANSLATION_MODEL_PATH="checkpoints/checkpoint_last.pt"
 
 # Citation
 ```bibtext
-@inproceedings{mujadia-sharma-2022-ltrc,
-    title = "The {LTRC} {H}indi-{T}elugu Parallel Corpus",
-    author = "Mujadia, Vandan  and Sharma, Dipti",
-    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
-    month = jun,
-    year = "2022",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2022.lrec-1.365",
-    pages = "3417--3424",
-}
-
-@inproceedings{mujadia-sharma-2021-english,
-title = "{E}nglish-{M}arathi Neural Machine Translation for {L}o{R}es{MT} 2021",
-author = "Mujadia, Vandan  and Sharma, Dipti Misra",
-booktitle = "Proceedings of the 4th Workshop on Technologies for MT of Low Resource Languages (LoResMT2021)",
-month = aug,
-year = "2021",
-address = "Virtual",
-publisher = "Association for Machine Translation in the Americas",
-url = "https://aclanthology.org/2021.mtsummit-loresmt.16",
-pages = "151--157",
+@misc{mujadia2024bhashaversetranslationecosystem,
+      title={BhashaVerse : Translation Ecosystem for Indian Subcontinent Languages}, 
+      author={Vandan Mujadia and Dipti Misra Sharma},
+      year={2024},
+      eprint={2412.04351},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.04351}, 
 }
 ```
