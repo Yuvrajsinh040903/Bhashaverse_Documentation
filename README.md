@@ -180,7 +180,7 @@ TRANSLATION_MODEL_FOLDER="checkpoints/" # Or whatever folder name you are using 
 TRANSLATION_MODEL_PATH="checkpoints/checkpoint_last.pt"
 ```
 
-* After this, use the `call_onemt.py` file to infer your fine-tuned model.
+* After this, use the `call_onemt.py` file to infer your fine-tuned model. This file you can find [here](https://github.com/vmujadia/onemt/blob/main/call_onemt.py).
 * Use the `translate_onemt()` function in this file to infer.
 
 # Citation
